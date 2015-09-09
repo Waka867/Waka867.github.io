@@ -1,0 +1,130 @@
+* {
+/*	border: 1px dashed grey; */
+	font-size: 1.02em;
+}
+
+.body-section {
+	max-width: 85%;
+	min-height: 100vh;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
+
+.container {
+	min-height: 100vh;
+	max-width: 100%;
+	min-width: 100%; /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+	background: -webkit-linear-gradient(#007ACC, #F7F9FE);
+	background: -o-linear-gradient(#007ACC, #F7F9FE);
+	background: linear-gradient(#007ACC, #F7F9FE); /* Standard syntax */
+	background-color: tan;
+	padding: 0!important;
+}
+
+.copyright {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.footer-leftside {
+	text-align: right;
+}
+
+.footermain {
+	color: #0033CC;
+	margin: 50px 0;
+}
+
+.footer-rightside {
+	text-align: left;
+}
+
+.glyphs {
+	text-align: center;
+}
+
+.main {
+	text-align: left;
+	width: 100%;
+	padding:0 !important;
+}
+
+.main-B {
+	text-align: left;
+	width: 100%;
+	padding:0 !important;
+}
+
+.navbuttons {
+	display: flex;
+	text-align: center;
+	padding: 0 !important;
+	margin: 0;
+}
+
+.nav-li {
+	list-style: none;
+	margin: 12px 1px 0 0;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+#footerlist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#jumbo {
+	padding: 0;
+}
+
+a {
+	color: black;
+}
+
+figcaption {
+	text-align: center;
+}
+
+figure {
+	padding: 25px 25px !important;
+}
+
+h1 {
+	text-align: center;
+}
+
+header {
+	max-width: 100%;
+	background-color: white;
+	margin: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #7F8BB5 !important;
+	margin: 1em 10%;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+	background-color: #208AD2;
+}
+
+p {
+    text-indent: 40px;
+}
