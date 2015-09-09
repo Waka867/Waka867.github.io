@@ -1,5 +1,5 @@
 * {
-/*	border: 1px dashed grey; */
+	/*border: 1px dashed grey;  */
 	font-size: 1.02em;
 }
 
@@ -114,6 +114,12 @@ hr {
 	border-top: 1px solid #7F8BB5 !important;
 	margin: 1em 10%;
 	padding: 0;
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
 }
 
 img {
