@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript" src="delta.js"></script>
 
 </head>
 <body>
@@ -18,8 +20,8 @@
 			<ul class="col-md-6 navbuttons">
 				<li class="nav-li"><a href="index.html"><button class="btn">Home</button></a></li>
 				<li class="nav-li"><a href="services.html"><button class="btn active">Services</button></a></li>
-				<li class="nav-li"><a href="about.html"><button class="btn">About</button></a></li>
-				<li class="nav-li"><a><button class="btn">Contact</button></a></li>
+				<li class="nav-li"><a href="about.html"><button class="btn">About / Contact</button></a></li>
+		<!--	<li class="nav-li"><a><button class="btn">Contact</button></a></li>  -->
 			</ul>
 			<div class="col-md6"></div>
 		</nav>
@@ -41,13 +43,49 @@
 				<div class="col-md-8">
 					<p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p>
 				</div>
-				<div class="col-md-4"><button class="wholesale">Custom Manufacturing</button></div>
+				<div class="col-md-12 wholesale-form">
+					<h3>Wholesale Order information request</h3>
+					<form>
+    					<label>First name: <input type="text" name="first_name" /></label><br/>
+     					<label>Last name: <input type="text" name="last_name" /></label><br/>
+        				<label>E-mail: <input type="email" name="user_email" /></label><br/>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+						<input type="submit">
+					</form>
+				</div>
+				<div class="col-md-4"><button class="manufacturing">Custom Manufacturing</button></div>
 				<div class="col-md-8">
 					<p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p>
 				</div>
-				<div class="col-md-4"><button class="wholesale">Installation and Maintenance Services</button></div>
+				<div class="col-md-12 manu-form">
+					<h3>Manufacturing Information request form</h3>
+					<form>
+						<label>First name: <input type="text" name="first_name" /></label><br/>
+						<label>Last name: <input type="text" name="last_name" /></label><br/>
+						<label>E-mail: <input type="email" name="user_email" /></label><br/>
+						<input type="checkbox" value="A" name="test">TEST A</input><br>
+						<input type="checkbox" value="B" name="test">TEST B</input><br>
+						<input type="checkbox" value="C" name="test">TEST C</input><br>
+						<input type="submit">
+					</form>
+				</div>
+				<div class="col-md-4"><button class="install">Installation and Maintenance Services</button></div>
 				<div class="col-md-8">
 					<p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p>
+				</div>
+				<div class="col-md-12 install-form">
+					<h3>Installation information request</h3>
+					<form>
+    					<label>First name: <input type="text" name="first_name" /></label><br/>
+     					<label>Last name: <input type="text" name="last_name" /></label><br/>
+        				<label>E-mail: <input type="email" name="user_email" /></label><br/>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+        				<input type="checkbox" value="" name="test">TEST CHECKBOX</input><br>
+						<input type="submit">
+					</form>
 				</div>
 			</section>
 
@@ -55,11 +93,11 @@
 			<hr>
 
 			<!-- Sub content three block area -->
-	<!--		<section class="row">
+			<section class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-8"><p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p></div>
+				<div class="col-md-8"><p>Lorem erom aomsd wome nodwaomadndwo ndwo ow lorem lloreo msmsdo womasdie od cdowom et sal eptum eoedm oamd. Lorem erom aomsd wome nodwaomadndwo ndwo ow lorem lloreo msmsdo womasdie od cdowom et sal eptum eoedm oamd. Lorem erom aomsd wome nodwaomadndwo ndwo ow lorem lloreo msmsdo womasdie od cdowom et sal eptum eoedm oamd. Lorem erom aomsd wome nodwaomadndwo ndwo ow lorem lloreo msmsdo womasdie od cdowom et sal eptum eoedm oamd. Lorem erom aomsd wome nodwaomadndwo ndwo ow lorem lloreo msmsdo womasdie od cdowom et sal eptum eoedm oamd.<br></p></div>
 				<div class="col-md-2"></div>
-			</section> -->
+			</section>
 
 			<!-- main content area B -->
 			<section class="row">
