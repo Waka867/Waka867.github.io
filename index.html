@@ -1,130 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>deltaFLEXTEK - Leading supplier of Fiber Optic cabling and equipment</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+	<title>Effective JavaScript: Frogger</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<div class="container">
 
-		<!-- navbar and nav elements -->
-		<nav class="row">
-			<ul class="col-md-6 navbuttons">
-				<li class="nav-li"><a href="index.html"><button class="btn active">Home</button></a></li>
-				<li class="nav-li"><a href="services.html"><button class="btn">Services</button></a></li>
-				<li class="nav-li"><a href="about.html"><button class="btn">About / Contact</button></a></li>
-		<!--	<li class="nav-li"><a><button class="btn">Contact</button></a></li>  -->
-			</ul>
-			<div class="col-md6"></div>
-		</nav>
+	<script src="js/resources.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/engine.js"></script>
 
-		<!-- jumbotron -->
-		<header class="row">
-			<div class="col-md-12" id="jumbo">
-				<img src="images/peopleoffice.jpg" class="img-responsive">
-			</div>
-		</header>
+	<script>
+		/* Game start alert */
+		alert("WELCOME!                                                                       Reach the water by pressing the directional keys to avoid the bugs. Once you get to the water you'll be awarded a point. Watch out! If you get hit by a bug you will lose a point! Audio controls are at the bottom of the page. GAME BY LEDWING HERNANDEZ");
+	</script>
 
-		<!-- body section div -->
-		<div class="body-section">
+	<h1>Points:</h1>
+	<h1 id="score">
+		<script>
+			document.write(Player.score);
+		</script>
+	</h1>
 
-			<!-- main content area -->
-			<section class="row">
-				<h1><em>We enable those who push the boundaries of technology.</em></h1>
-				<div class="col-md-2"></div>
-				<div class="main col-md-8">
-					<p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p>
-
-					<p>Optical fibers typically include a transparent core surrounded by a transparent cladding material with a lower index of refraction. Light is kept in the core by the phenomenon of total internal reflection which causes the fiber to act as a waveguide.[2] Fibers that support many propagation paths or transverse modes are called multi-mode fibers (MMF), while those that support a single mode are called single-mode fibers (SMF). Multi-mode fibers generally have a wider core diameter and are used for short-distance communication links and for applications where high power must be transmitted.[citation needed] Single-mode fibers are used for most communication links longer than 1,000 meters (3,300 ft).[citation needed]<br></p>
-
-					<p>An important aspect of a fiber optic communication is that of extension of the fiber optic cables such that the losses brought about by joining two different cables is kept to a minimum.[2] Joining lengths of optical fiber often proves to be more complex than joining electrical wire or cable and involves careful cleaving of the fibers, perfect alignment of the fiber cores, and the splicing of these aligned fiber cores. For applications that demand a permanent connection a mechanical splice which holds the ends of the fibers together mechanically could be used or a fusion splice that uses heat to fuse the ends of the fibers together could be used. Temporary or semi-permanent connections are made by means of specialized optical fiber connectors.[2]<br></p>
-				</div>
-				<div class="col-md-2"></div>
-			</section>
-
-			<!-- Horizontal rule -->
-			<hr>
-
-			<!-- Sub content three block area -->
-			<section class="row">
-				<figure class="col-md-4">
-					<img src="images/screenedwire.jpg" class="img-reponsive">
-					<figcaption>Deca-braided Copper wiring</figcaption>
-				</figure>
-				<figure class="col-md-4">
-					<img src="images/cable.jpg" class="img-reponsive">
-					<figcaption>FlexCore Residential and light-commercial Optical cable</figcaption>
-				</figure>
-
-				<figure class="col-md-4">
-					<img src="images/tower.jpg" class="img-reponsive">
-					<figcaption>Industrial Optical cable and Nodes</figcaption>
-				</figure>
-			</section>
-
-			<!-- main content area B -->
-			<section class="row">
-				<div class="col-md-2"></div>
-				<div class="main-B col-md-8">
-				<p>An optical fiber (or optical fibre) is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.[1] Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths (data rates) than wire cables. Fibers are used instead of metal wires because signals travel along them with lesser amounts of loss; in addition, fibers are also immune to electromagnetic interference, a problem which metal wires suffer from excessively.[2][2] Fibers are also used for illumination, and are wrapped in bundles so that they may be used to carry images, thus allowing viewing in confined spaces, as in the case of a fiberscope.[3] Specially designed fibers are also used for a variety of other applications, some of them being fiber optic sensors and fiber lasers.[4]<br></p>
-
-				<p>Optical fibers typically include a transparent core surrounded by a transparent cladding material with a lower index of refraction. Light is kept in the core by the phenomenon of total internal reflection which causes the fiber to act as a waveguide.[2] Fibers that support many propagation paths or transverse modes are called multi-mode fibers (MMF), while those that support a single mode are called single-mode fibers (SMF). Multi-mode fibers generally have a wider core diameter and are used for short-distance communication links and for applications where high power must be transmitted.[citation needed] Single-mode fibers are used for most communication links longer than 1,000 meters (3,300 ft).[citation needed]<br></p>
-
-				<p>An important aspect of a fiber optic communication is that of extension of the fiber optic cables such that the losses brought about by joining two different cables is kept to a minimum.[2] Joining lengths of optical fiber often proves to be more complex than joining electrical wire or cable and involves careful cleaving of the fibers, perfect alignment of the fiber cores, and the splicing of these aligned fiber cores. For applications that demand a permanent connection a mechanical splice which holds the ends of the fibers together mechanically could be used or a fusion splice that uses heat to fuse the ends of the fibers together could be used. Temporary or semi-permanent connections are made by means of specialized optical fiber connectors.[2]<br></p>
-				</div>
-				<div class="col-md-2"></div>
-			</section>
+	<h1>Move up, down, right, and left using the arrow keys on your keyboard. You can also use the "W", "S", "A", and "D" keys to move up, down, left, and right, respectively.<br><br> YOUR GOAL IS TO REACH TEN POINTS!</h1>
 
 
-			<!-- Horizontal rule -->
-			<hr>
+	<!-- background music controls / section -->
+	<audio src="Ambiance.mp3" controls autoplay loop>
+		Your browser does not support the audio HTML5 element.
+	</audio>
+	<!-- game sound div -->
+	<div id="game-sound"></div>
 
-			<!-- Footer and contact as well as social media inserts -->
-			<footer class="row">
-				<div class="col-md-12  footermain">
-					<div class="col-md-2"></div>
-					<address class="col-md-4 footer-leftside">
-						2352 East State Street Suite 220<br>
-						Whyland, NY, 12345<br>
-						(555) 525-5555<br>
-						<a href="mailto:info@deltaflextek.com">info@deltaflextek.com</a>
-					</address>
-					<div class="col-md-4 footer-rightside">
-						<ul id="footerlist">
-							<li><a href="" target="_blank">Contact / Support</a></li>
-							<li><a href="" target="_blank">Services</a></li>
-							<li><a href="" target="_blank">Careers</a></li>
-							<li><a href="" target="_blank">News</a></li>
-							<li><a href="" target="_blank">About the company</a></li>
-						</ul>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-				<div class="col-md-12 glyphs">
-					<a href="#" title="Facebook"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></a>
-					<a href="#" title="Adjust text size"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span></a>
-					<a href="#" title="Employee Log-in"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span></a>
-					<a href="#" title="SEARCH"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
-				</div>
-				<div class="col-md-12 copyright">
-				© Copyright 1997 - 2015 deltaFLEXTEK, LLC.
-				</div>
 
-			</footer>
-		</div>
-	</div>
 </body>
+
 </html>
-
-
-<!-- Website by Ledwing Hernandez - Summer 2015 - ledwing.hernandez@gmail.com - https://github.com/Waka867 - https://hernandez270.wordpress.com/
-
-buh bye!
-
--->
